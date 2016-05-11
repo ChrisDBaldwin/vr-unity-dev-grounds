@@ -15,9 +15,6 @@ public class ParticleHandler : MonoBehaviour
 	    if (col.gameObject.tag == "Player") {
 	    	Instantiate(particlePrefab);
 	    }
-	    else{
-	    	Destroy(particlePrefab);
-	    }
 	}
 
  
